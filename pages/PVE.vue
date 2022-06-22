@@ -13,7 +13,7 @@
 </script>
 
 <style>
-	.BattleArea {
+	.BattleArea { 
 		height: 85vh;
 		width: 80vw;
 		margin: 2vw;
