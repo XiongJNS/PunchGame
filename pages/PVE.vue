@@ -1,7 +1,32 @@
 <template>
 	<view class="content">
 		<view class="BattleArea">
-			view
+			<view class="EnemyStateArea">
+				
+			</view>
+			<view class="EnemyBoxArea">
+				
+			</view>
+			
+			<view class="MainArea">
+				
+			</view>
+			
+			<view class="PlayerBoxArea">
+				
+			</view>
+			
+			<view class="PlayerStateArea">
+				
+			</view>
+			
+			<view class="FixHandArea">
+				
+			</view>
+			
+			<view class="SwiperArea">
+				
+			</view>
 		</view>
 	</view>
 </template>
@@ -12,13 +37,9 @@
 	A.update();
 </script>
 
+
+
 <style>
-	.BattleArea { 
-		height: 85vh;
-		width: 80vw;
-		margin: 2vw;
-		border: 1px solid transparent;
-		background: linear-gradient(white, white) padding-box, repeating-linear-gradient(-45deg, black 0, black 25%, white 0, white 50%) 0/.6em .6em;
-		animation: ants 12s linear infinite;
-	}
+	@import url("@/pages/css/PVE.css");
+	
 </style>
