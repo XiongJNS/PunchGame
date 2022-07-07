@@ -6,3 +6,83 @@
 	background: linear-gradient(white, white) padding-box, repeating-linear-gradient(-45deg, black 0, black 25%, white 0, white 50%) 0/.6em .6em;
 	animation: ants 12s linear infinite;
 }
+
+#EnemyStateArea{
+	height: 3vh;
+	width: 70vw;
+	background-color: aqua;
+	margin-left: 5vw;
+	margin-right: 5vw;
+	margin-top: 0.5vh;
+	margin-bottom: 1vh;
+}
+
+#EnemyBoxArea{
+	height: 3vh;
+	width: 70vw;
+	background-color: aqua;
+	margin-left: 5vw;
+	margin-right: 5vw;
+	margin-top: 1vh;
+	margin-bottom: 1vh;
+}
+
+#MainArea{
+	height: 25vh;
+	width: 70vw;
+	background-color: aqua;
+	margin-left: 5vw;
+	margin-right: 5vw;
+	margin-top: 1vh;
+	margin-bottom: 1vh;
+}
+
+#PlayerBoxArea{
+	height: 3vh;
+	width: 70vw;
+	background-color: aqua;
+	margin-left: 5vw;
+	margin-right: 5vw;
+	margin-top: 1vh;
+	margin-bottom: 1vh;
+}
+
+#PlayerStateArea{
+	height: 3vh;
+	width: 70vw;
+	background-color: aqua;
+	margin-left: 5vw;
+	margin-right: 5vw;
+	margin-top: 1vh;
+	margin-bottom: 1vh;
+}
+
+#FixHandArea{
+	height: 15vh;
+	width: 70vw;
+	background-color: yellowgreen;
+	margin-left: 5vw;
+	margin-right: 5vw;
+	margin-top: 1vh;
+	margin-bottom: 1vh;
+}
+
+#SwiperArea{
+	height: 20vh;
+	width: 70vw;
+	background-color: yellowgreen;
+	margin-left: 5vw;
+	margin-right: 5vw;
+	margin-top: 0.5vh;
+	margin-bottom: 0vh;
+}
+
+#TestArea{
+	height: 5vh;
+	width: 70vw;
+	background-color: gray;
+	margin-left: 5vw;
+	margin-right: 5vw;
+	margin-top: 0.5vh;
+	margin-bottom: 0vh;
+}

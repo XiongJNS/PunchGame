@@ -3,7 +3,7 @@
 		{
 			"path": "pages/index/index",
 			"style": {
-				"navigationBarTitleText": "打喵拳"
+				"navigationBarTitleText": "PunchGame"
 			}
 		},{
 			"path": "pages/Help"
@@ -13,7 +13,7 @@
 	],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
-		"navigationBarTitleText": "打喵拳",
+		"navigationBarTitleText": "PunchGame",
 		"navigationBarBackgroundColor": "#F8F8F8",
 		"backgroundColor": "#F8F8F8"
 	}

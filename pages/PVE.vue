@@ -1,31 +1,34 @@
 <template>
 	<view class="content">
 		<view class="BattleArea">
-			<view class="EnemyStateArea">
-				
+			<view id="EnemyStateArea">
+				血量:{{state.Enemy.hp}} 能量：{{state.Enemy.energy}}
 			</view>
-			<view class="EnemyBoxArea">
-				
+			<view id="EnemyBoxArea">
+
 			</view>
-			
-			<view class="MainArea">
-				
+
+			<view id="MainArea">
+
 			</view>
-			
-			<view class="PlayerBoxArea">
-				
+
+			<view id="PlayerBoxArea">
+
 			</view>
-			
-			<view class="PlayerStateArea">
-				
+
+			<view id="PlayerStateArea">
+				血量:{{state.Player.hp}} 能量：{{state.Player.energy}}
 			</view>
-			
-			<view class="FixHandArea">
-				
+
+			<view id="FixHandArea">
+
 			</view>
-			
-			<view class="SwiperArea">
-				
+
+			<view id="SwiperArea">
+
+			</view>
+			<view id="TestArea">
+				{{GameFlagState.GameState}}
 			</view>
 		</view>
 	</view>
@@ -33,13 +36,48 @@
 
 <script>
 	import A from '@/pages/js/PVE.js';
-	A.init();
-	A.update();
+	export default {
+		data() {
+			return {
+				GameFlagState: {
+					GameOver: false,
+					GameState: "ready",
+				},
+				state: {
+					Player: {
+						hp: 1,
+						energy: 0,
+						items: []
+					},
+					Enemy: {
+						hp: 1,
+						energy: 0,
+						item: []
+					}
+				}
+			}
+		},
+		onLoad() {
+
+		},
+		mounted: function() {
+			this.$nextTick(() => {
+				this.Start();
+			})
+		},
+		methods: {
+			Start() {
+
+				A.init();
+			//	var Timer=setInterval(()=>{A.update()},50);
+			}
+		}
+
+	}
 </script>
 
 
 
 <style>
 	@import url("@/pages/css/PVE.css");
-	
 </style>
